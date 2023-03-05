@@ -1,0 +1,260 @@
+body{
+
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e3e0e0;
+}
+
+#corpodue{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+/* header */
+
+#logo{
+
+    background-color: #222f3e;
+}
+
+.amazon{
+
+    margin-left: 3%;
+}
+
+/* barra navigazione */
+
+#barranav {
+
+    background-color: #354758;
+    overflow: hidden;
+    z-index: 1000;
+    display: block;
+
+}
+
+.linkbarra {
+
+    float: left;
+    color:#fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: #354758;
+}
+
+.linkbarra :hover {
+
+    background-color: #354758;
+    color: #fff;
+    
+}
+
+/* titolo arancio */
+
+.orangetitle {
+    color: #fff;
+    background-color: #f07d19;
+    padding: 10px 10px;
+    height: 80%;
+    text-align: center;
+}
+
+/*container_1 e h1 */
+
+#container_1{
+
+    background-image: url("/assets/bg-image.png");
+    text-align: center;
+
+}
+
+.titolo{
+
+    padding: 2em;
+    color:#fff;
+    
+}
+
+.acapo{
+
+    font-size: large;
+    
+}
+
+/* immagini affiancate */
+
+#container_2{
+
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+.affianco{
+    float: center;
+    display: block;
+    width: 300px;
+    height: 400px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.centro{
+    width: 90%;
+    height: 90%;
+    border-radius: 5%;
+    box-shadow: 5px 5px 10px 1px #969595;
+}
+
+.position{
+
+    font-weight: bold;
+    position: absolute;
+    margin-left: 30px;
+
+}
+
+/* vr immagine e scrivania */
+
+#centroimg{
+
+    height: auto;
+    width: 100%;
+    padding-bottom: 20px;
+
+}
+
+.vr_scrivania{
+
+    height: 100%;
+    width: 100%;
+}
+
+#centroimg p{
+
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    font-weight: bold;
+}
+
+.spancolor{
+
+    color: #017185
+}
+
+/* link torna su */
+
+.tornasu{
+
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+    background-color: #354758;
+    margin: 0;
+
+}
+
+.tornasu a{
+    color: #fff;
+}
+
+/* footer */
+
+#fine{
+    background-color: #222f3e;
+    text-align: center;
+}
+
+#fine img{
+    padding: 50px;
+    height: 60px;
+}
+
+/* parte 2 amazon */
+
+#scatola{
+
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+    
+}
+
+.quadranti{
+
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 400px;
+    background-color: #fff;
+    
+}
+
+.quadranti>p{
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+.itemsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 75%;
+}
+
+.item{
+
+    width: 10em;
+    position:relative;
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.item>span{
+
+    
+    position: absolute;
+    left: 8px;
+    bottom: 10px;
+}
+
+.item>img{
+
+    width: 90%;
+    height: 90%;
+    
+}
+
+.link{
+
+    position: relative;
+    bottom: -30px;
+    left: 20px;
+    color: #017185;
+    text-decoration: none;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
